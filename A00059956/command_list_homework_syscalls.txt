@@ -1,0 +1,393 @@
+    1  sudo yum install git -y
+    2  cd /tmp/
+    3  git clone https://github.com/jonas/tig.git
+    4  cd tig
+    5   yum install gcc ncurses-devel ncurses
+    6  make
+    7  make install
+    8  tig
+    9  cd ..
+   10  ls
+   11  rm - rf tig/
+   12  rm -rf tig/
+   13  git clone https://github.com/chimbi18/so-workshop2.git
+   14  tig
+   15  clear
+   16  pwd/tmp/so-workshop2
+   17  pws2
+   18  clear
+   19  tig
+   20  cñear
+   21  claer
+   22  clear
+   23  cd so-workshop2/
+   24  tig
+   25  touch message_1.txt
+   26  ls
+   27  ls -l message_1.txt
+   28  vi message_1.txt
+   29  vi message_2.txt
+   30  git add message_1.txt
+   31  git status
+   32  git rm message_1.txt 
+   33  git reseet
+   34  git --help
+   35  git rm message_1.txt 
+   36  git rm -f  message_1.txt 
+   37  git status
+   38  git reset message_1.txt
+   39  git checkout -b
+   40  git checkout -b A00059956/workshop2
+   41  git branch
+   42  ig checkout master
+   43  git checkout master
+   44  git branch
+   45  git branch -D A00059956/workshop2
+   46  git checkout -b chimbi18/workshop2
+   47  git branch -D chimbi18/workshop2
+   48  git branch
+   49  touch message_1.txt
+   50  git status
+   51  git branch
+   52  ls
+   53  git add message_1.txt
+   54  git status
+   55  git commit -m "Add message_1.txt"
+   56    git config --global user.name "Your Name"
+   57  git config --global user.name "Victor Calambas"
+   58  git status
+   59  tig
+   60  ls
+   61  cat .git/config 
+   62  git push origin chimbi18/workshop2
+   63  history
+   64  history >command_list.txt
+   65  vi command_list.txt
+   66  git add command list.txt
+   67  git add command_list.txt
+   68  git commit -m "Add command_list.txt"
+   69  git push origin chimbi18/workshop2
+   70  poweroff
+   71  mkdir A00059956
+   72  ls
+   73  mv  command_list.txt A00059956/
+   74  ls
+   75  git clone https://github.com/chimbi18/so-workshop2.git
+   76  ls
+   77  git ass --all
+   78  git add --all
+   79  cd so-workshop2/
+   80  ls
+   81  mkdir A00059956
+   82  mv command_list.txt command_list.txt.baackup
+   83  ls
+   84  cd chimbi18/workshop2
+   85  pwd
+   86  ls
+   87  cd ..
+   88  ls
+   89  cd so-workshop2/
+   90  ls
+   91  git status
+   92  git branch -a
+   93  git checkout chimbi18/workshop2
+   94  ls
+   95  mv command_list.txt A00059956/
+   96  ls
+   97  mv message_1.txt A00059956/
+   98  git status
+   99  git add *
+  100  git commit -m "Move files to folder"
+  101  git push origin chimbi18/workshop2
+  102  ls
+  103  git add -all
+  104  git add -lall
+  105  git add --all
+  106  git commit -m "Remove txt files"
+  107  git push origin chimbi18/workshop2
+  108  cd /tmp
+  109   git clone cd /tmp
+  110  cd 01/intrp
+  111  cd 01/intro
+  112  ls
+  113  cd so-workshop2/
+  114  ls
+  115  cd ..
+  116  ls
+  117  git clone https://github.com/ICESI/so-syscalls.git
+  118  ls
+  119  cd so-syscalls/01_intro/sources/
+  120  ls
+  121  gcc
+  122  compilar_ejecutar.sh
+  123  vi syscl_01.c 
+  124  gcc
+  125  ls
+  126  gcc syscl_01.c -o syscl_01.c 
+  127  ls
+  128  ./syscl_01.c 
+  129  ps -e
+  130  gcc syscl_02.c  -o syscl_02.o 
+  131  ./syscl_02.o
+  132  ps -e
+  133  ./syscl_02.o &
+  134  ps -e
+  135  vi syscl_03.c 
+  136  ./syscl_03.c
+  137  ./syscl_03.o
+  138  gcc syscl_03.c  -o syscl_03.o 
+  139  ./syscl_03.o
+  140  gcc syscl_04.c  -o syscl_04.o 
+  141  ./syscl_04.o
+  142  gcc syscl_05.c  -o syscl_05.o 
+  143  ./syscl_05.o
+  144  gcc syscl_06.c  -o syscl_06.o 
+  145  ./syscl_06.o
+  146  gcc syscl_07.c  -o syscl_07.o 
+  147  ./syscl_07.o
+  148  ./syscl_06.o
+  149  ./syscl_07.o
+  150  gcc syscl_08.c  -o syscl_08.o 
+  151  ./syscl_08.o
+  152  exit
+  153  poweroff
+  154  ls
+  155  sources
+  156  clear
+  157  cd sources
+  158  ls
+  159  cd so-workshop2/
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd bin
+  164  ls
+  165  cd ..
+  166  cd tmp
+  167  cd ..
+  168  cd tmp
+  169  ls
+  170  cd so-syscalls/
+  171  cd 01_intro/
+  172  cd sources/
+  173  ls
+  174  gcc syscl_09.c -o syscl_09.o
+  175  ./syscl_09.o 
+  176  pwd
+  177  gcc syscl_010.c -o syscl_010.o
+  178  gcc syscl_10.c -o syscl_10.o
+  179  ./syscl_10.o 
+  180  gcc syscl_11.c -o syscl_11.o
+  181  ./syscl_10.o 
+  182  strace
+  183  yum -install strace
+  184  yum install strace
+  185  yum install tree
+  186  tree
+  187  git temove -
+  188  git temove -v
+  189  git remote -v
+  190  cd ..
+  191  ls
+  192  cd..
+  193  cd ..
+  194  ls
+  195  02_strace/
+  196  cd 02_strace/
+  197  ls
+  198  mkdir sources
+  199  ls
+  200  cd sources/
+  201  touch mistery.py
+  202  tree
+  203  cd ..
+  204  tree
+  205  /usr/bin/true
+  206  strace -etrace=exit_group /usr/bin/true
+  207  strace -etrace=sendto ping -c 1 127.0.0.1
+  208  strace -etrace=sendto ping -c 15 127.0.0.1
+  209  python -c "print('yesid es perra')"
+  210  exit
+  211  history
+  212  cd ..
+  213  cd tmp
+  214  cd so-syscalls/
+  215  cd 02_strace/
+  216  cd sources/
+  217  python -c "print('yesid es perra')"
+  218  strace -etrace=write python mistery1.py
+  219  vi mistery.py 
+  220  strace -etrace=write python mistery1.py
+  221  strace -etrace=write python mistery.py
+  222  yum install kernel-devel
+  223  cd tmp
+  224  cd ..
+  225  git clone https://github.com/jvns/kernel-module-fun.git
+  226  cd kernel-module-fun
+  227  ls
+  228  uname -r
+  229  echo $UNAME
+  230  # yum install gcc kernel-devel-${UNAME%.*}
+  231   yum install gcc kernel-devel-${UNAME%.*}
+  232  # git clone https://github.com/jvns/kernel-module-fun.git
+  233  UNAME=$(uname -r)
+  234  yum install gcc kernel-devel-${UNAME%.*}
+  235  vi Makefile 
+  236  vi hello.c 
+  237  sudo insmod hello.ko
+  238  sudo insmod hello.o
+  239   make all
+  240  sudo insmod hello.ko
+  241  mkdir "chimbi&Anyi4ever"
+  242  git commit -m "Create folder"
+  243  cd ..
+  244  cd so-syscalls/
+  245  cd 02_strace/
+  246  cd sources/
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd sources/
+  251  ls
+  252  cd ..
+  253  cd 01_intro/
+  254  cd sources/
+  255  ls
+  256  vi Makefile
+  257  ls
+  258  make example
+  259  vi Makefile
+  260  make example_01
+  261  adduser operativos
+  262  adduser chimbi18
+  263  passwd chimbi18
+  264  exit
+  265  exit
+  266  cd /tmp/
+  267  ipconfig
+  268  ifcon
+  269  cd..
+  270  cd ..
+  271  ping
+  272  clear
+  273  ifco
+  274  ifconf
+  275  iprconfig 
+  276  exit
+  277  cd ..
+  278  /tmp
+  279  ./tmp
+  280  tmp/.
+  281  cd /tmp/
+  282  ls
+  283  cd so-workshop2/
+  284  ls
+  285  touch syscall1.c
+  286  ls
+  287  vi syscall1.c 
+  288  touch syscall2.c
+  289  vi syscall2.c 
+  290  vi syscall1.c 
+  291  vi syscall2.c 
+  292  vi syscall1.c 
+  293  vi syscall2.c 
+  294  touch syscall3.c
+  295  vi syscall3.c 
+  296  vi makefile
+  297  make all
+  298  vi syscall1.c 
+  299  make all
+  300  vi syscall2.c 
+  301  vi syscall1.c 
+  302  vi syscall3.c 
+  303  make all
+  304  vi syscall1.c 
+  305  ls
+  306  make all
+  307  vi syscall1.c 
+  308  make all
+  309  vi makefile 
+  310  make all
+  311  make EXECUTE
+  312  gcc syscall1.c -o syscall1.o
+  313  vi makefile 
+  314  vi syscall1.c 
+  315  gcc syscall1.c -o syscall1.o
+  316  vi syscall1.c 
+  317  gcc syscall1.c -o syscall1.o
+  318  gcc syscall2.c -o syscall2.o
+  319  vi syscall1.c 
+  320  gcc syscall2.c -o syscall2.o
+  321  gcc syscall3.c -o syscall3.o
+  322  vi syscall1.c 
+  323  gcc syscall1.c -o syscall1.o
+  324  vi syscall1.c 
+  325  gcc syscall1.c -o syscall1.o
+  326  vi syscall1.c 
+  327  gcc syscall3.c -o syscall3.o
+  328  gcc syscall1.c -o syscall1.o
+  329  vi syscall1.c 
+  330  gcc syscall1.c -o syscall1.o
+  331  vi syscall1.c 
+  332  gcc syscall1.c -o syscall1.o
+  333  vi syscall2.c 
+  334  gcc syscall2.c -o syscall2.o
+  335  vi syscall2.c 
+  336  gcc syscall2.c -o syscall2.o
+  337  vi syscall1.c 
+  338  ./syscall2.o
+  339  ./syscall1.o 
+  340  cat syscall1.c
+  341  ./syscall1.o 
+  342  ls
+  343  touch mi_archivo
+  344  ./syscall1.o 
+  345  cat mi_archivo 
+  346  vi mi_archivo 
+  347  ./syscall1.o 
+  348  ./syscall3.o 
+  349  gcc syscall3.c -o syscall3.o
+  350  ./syscall3.o 
+  351  cat syscall3.c
+  352  ls
+  353  cat chimbi_file 
+  354  rm syscall1.c
+  355  ls
+  356  rm
+  357  rm syscall2.c 
+  358  ls
+  359  rm mi_archivo 
+  360  rm syscall1.o 
+  361  ls
+  362  vi makefile 
+  363  make all
+  364  make alss
+  365  vi makefile 
+  366  make all
+  367  ls
+  368  git branch
+  369  git status
+  370  tig
+  371  cd ..
+  372  cd..
+  373  cd ..
+  374  ./tmp/
+  375  /.tmp/
+  376  tmp/
+  377  cd ./tmp/
+  378  ls
+  379  so-workshop2/
+  380  cd so-workshop2/
+  381  ls
+  382  pwd
+  383  rm -rf tig/
+  384  git clone https://github.com/chimbi18/so-workshop2.git
+  385  ls
+  386  status
+  387  tig
+  388  vi makefile 
+  389  vi syscall3.c
+  390  git status
+  391  historu
+  392  history
+  393  history>command_list_homework_syscalls.txt
